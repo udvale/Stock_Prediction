@@ -4,14 +4,14 @@
 
 This project implements a stock price prediction model using Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN) well-suited for time series forecasting. The primary goal is to predict stock prices based on historical data, specifically focusing on Google’s stock (GOOG). Users can input a date range and stock symbol to visualize and predict future prices.
 
-## Table of Contents
+  <img src="https://github.com/user-attachments/assets/4c122907-f1cb-4e0b-81c4-5b0cdb10a87f" alt="Screenshot 2024-07-30 180759"  style="border: 2px solid rgba(0, 0, 0, 0.2); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); display: block;" />
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Trial and Error](#trial-and-error)
-- [Improvements](#improvements)
-- [Technologies Used](#technologies-used)
+## Deployment
+
+You can view the deployed version of the stock prediction web app - https://prediction-goog-yf.streamlit.app/.
+
+This application is hosted on Streamlit Cloud, which allows users to easily access and interact with the model's predictions. 
+The app fetches stock data using the Yahoo Finance API and visualizes the predicted stock prices against actual prices.
 
 ## Features
 - Interactive user interface built with Streamlit for seamless data input and visualization.
