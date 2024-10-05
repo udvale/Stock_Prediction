@@ -3,6 +3,9 @@
 ## Overview
 
 This project implements a stock price prediction model using Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN) well-suited for time series forecasting. The primary goal is to predict stock prices based on historical data, specifically focusing on Google’s stock (GOOG). Users can input a date range and stock symbol to visualize and predict future prices.
+<br>
+<br>
+The model specifically uses the ```closing prices``` of the stock as they represent the final value at which a stock trades during a regular trading session. The ```closing prices``` are often considered the most accurate reflection of a stock's value at the end of the trading day, which is an ideal choice for training the model. By analyzing these historical ```closing prices```, the model aims to identify trends and patterns that can assist in forecasting future stock prices.
 
   <img src="https://github.com/user-attachments/assets/4c122907-f1cb-4e0b-81c4-5b0cdb10a87f" alt="Screenshot 2024-07-30 180759"  style="border: 2px solid rgba(0, 0, 0, 0.2); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); display: block;" />
 
