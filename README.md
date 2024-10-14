@@ -45,25 +45,3 @@ To run this project locally, follow these steps:
 3. Input the desired stock symbol (default is "GOOG") and select a date range.
 4. Click "Load Data" to fetch and visualize the stock prices, and view the predictions.
 
-## Model Comparison
-- **Linear Regression**:
-A fast and straightforward model that assumes a linear relationship between past stock prices and future values. While easy to implement, it struggles to capture the complex, non-linear patterns typically seen in financial data.
-
-- **LSTM (Long Short-Term Memory)**:
-An advanced model specifically designed for time-series data. LSTM "remembers" previous price trends, making it better suited for stock price forecasting. It captures both short-term volatility and long-term trends in stock prices.
-
-## Results and Performance
-The models were evaluated using Mean Squared Error (MSE) and visualized by comparing the actual stock prices to the predicted prices.
-
-Mean Squared Error (MSE):
-- Linear Regression: 6.26
-- LSTM: 154.28
-Despite the lower MSE for Linear Regression, the LSTM model better captures the volatility and time-dependent nature of stock prices, as seen in the plot below.
-
-## Challenges
-During the development of this project, I faced several challenges:
-
-- Data Volatility: Stock prices are highly volatile, making it difficult for simple models like Linear Regression to capture short-term price movements.
-- Overfitting in LSTM: LSTM models are prone to overfitting, especially with limited data. I addressed this by using dropout layers to improve generalization.
-- Longer Training Time: LSTM models take significantly longer to train compared to simpler models, but the improved accuracy makes the extra effort worthwhile.
-
